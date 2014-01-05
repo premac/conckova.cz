@@ -9,6 +9,16 @@ include "before.php";
         </p>
 
         <p align=center>
+          <span class="modra"><b>Sako s nabíranou fazonou</b></span><br>
+          <img alt="" src="galerie/sako3.jpg" class="galerie">
+        </p>
+
+        <p align=center>
+          <span class="ruzova"><b>Krajkové sako a pouzdrové šaty</b></span><br>
+          <img alt="" src="galerie/sako4.jpg" class="galerie">
+        </p>
+
+        <p align=center>
           <span class="ruzova"><b>Šaty</b></span><br>
           <img alt="" src="galerie/saty.jpg" class="galerie">
         </p>
@@ -80,7 +90,6 @@ include "before.php";
           <span class="zluta"><b>Kabát</b></span><br>
           <img alt="" src="galerie/kabat.jpg" class="galerie">
         </p>
-
         
 <?
 include "after.php";
