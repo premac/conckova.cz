@@ -1,0 +1,100 @@
+html,body {
+	color: #ffffff;
+  background-color:#5a5a5a;	
+	margin: 0;
+	padding:0;
+	font: 1em "Trebuchet MS", Arial, Verdana, sans-serif;
+  background-image: url("img/gradient.jpg");
+  background-position: left top;
+  background-repeat: repeat-x;
+} 
+
+p {
+  margin-top:17px;  
+}
+
+table.hlavni {
+	background-color: black;
+	padding: 0;
+	width: 700px;
+  height: 100%;
+	border: 0px;  
+  font-size: 0.9em;
+  line-height:1.4em;
+}
+
+h1.nadpis {
+  font-size: 1.3em;
+  letter-spacing: 0.2em;
+}
+
+.menu {
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.cenik {
+  font-size: 1em;
+}
+  
+img.galerie {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+A {
+  color: #ffffff;
+	text-decoration: underline;	
+}
+
+A:Hover {
+	text-decoration: none;
+  color: #ffffff;
+}
+
+a.menu {
+  text-decoration: none;
+}
+
+a.menu:hover {
+  text-decoration: underline;
+}
+
+
+.prema {
+  color: #777777;
+  font-size: 0.77em;
+}
+
+H1 {
+	font-size: 1.5em;
+}
+
+td.obsah {
+  padding: 30px;
+  padding-top: 40px;
+	vertical-align: top;  
+}
+
+.ruzova {color: #ed497b}
+/*.ruzova {color: #fd494b}*/
+.ruzova {color: #ed497b}
+.zluta {color: #e2cf00}
+.zelena {color: #93bd33}
+.modra {color: #3393bd}
+
+.p_ruzova {background-color: #ed497b}
+/*.p_ruzova {background-color: #fd494b}*/
+.p_zluta {background-color: #e2cf00}
+.p_zelena {background-color: #93bd33}
+.p_modra {background-color: #3393bd}
+
+
+div.content {
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: -4px;
+	margin-bottom: 60px;
+	width: 851px;
+}
+
