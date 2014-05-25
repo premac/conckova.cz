@@ -9,6 +9,11 @@ include "before.php";
         </p>
 
         <p align=center>
+          <span class="zluta"><b>Kabát</b></span><br>
+          <img alt="" src="galerie/kabat2.jpg" class="galerie">
+        </p>
+
+        <p align=center>
           <span class="modra"><b>Sako s nabíranou fazonou</b></span><br>
           <img alt="" src="galerie/sako3.jpg" class="galerie">
         </p>
