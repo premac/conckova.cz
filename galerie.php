@@ -24,7 +24,7 @@ include "before.php";
         </p>
 
         <p align=center>
-          <span class="zelena"><b>Šaty/b></span><br>
+          <span class="zelena"><b>Šaty</b></span><br>
           <img alt="" src="galerie/saty2.jpg" class="galerie">
         </p>
 
