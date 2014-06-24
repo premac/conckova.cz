@@ -9,6 +9,26 @@ include "before.php";
         </p>
 
         <p align=center>
+          <span class="zluta"><b>Sako</b></span><br>
+          <img alt="" src="galerie/sako5.jpg" class="galerie">
+        </p>
+
+        <p align=center>
+          <span class="modra"><b>Bunda</b></span><br>
+          <img alt="" src="galerie/bunda.jpg" class="galerie">
+        </p>
+
+        <p align=center>
+          <span class="ruzova"><b>Sako</b></span><br>
+          <img alt="" src="galerie/sako6.jpg" class="galerie">
+        </p>
+
+        <p align=center>
+          <span class="zelena"><b>Šaty/b></span><br>
+          <img alt="" src="galerie/saty2.jpg" class="galerie">
+        </p>
+
+        <p align=center>
           <span class="zluta"><b>Kabát</b></span><br>
           <img alt="" src="galerie/kabat2.jpg" class="galerie">
         </p>
@@ -43,16 +63,6 @@ include "before.php";
         <p align=center>
           <span class="ruzova"><b>Halenka</b></span><br>
           <img alt="" src="galerie/obr3.jpg" class="galerie">
-        </p>
-
-        <p align=center>
-          <span class="zelena"><b>Kostýmek</b></span><br>
-          <img alt="" src="galerie/obr4.jpg" class="galerie">
-        </p>
-
-        <p align=center>
-          <span class="modra"><b>Kostýmek</b></span><br>
-          <img alt="" src="galerie/obr6.jpg" class="galerie">
         </p>
 
         <p align=center>
