@@ -26,6 +26,14 @@ include "before.php";
         </p>
 
         <p>
+        <span class="zluta"><br><b>Mobil</b></span>         
+        </p>
+
+        <p>
+        <a href="https://www.facebook.com/conckova">Facebook</a>
+        </p>
+
+        <p>
         <span class="ruzova"><br><b>Email</b></span>         
         </p>
 
