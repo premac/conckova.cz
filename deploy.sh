@@ -13,7 +13,7 @@ upload()
 	for file in `ls -F $dir | grep -v '[/]'`; do
 		path=$dir/$file
 		echo "# Uploading $path"
-		curl -T $path ftp://ftp.conckova.cz/www/$dir/ --user conckova.cz:$PASS
+		curl -T $path ftp://ftpx.forpsi.com/www/$dir/ --user www.conckova.cz:$PASS
 	done		
 
 	for dir in `ls -d $dir/*/ 2> /dev/null`; do
