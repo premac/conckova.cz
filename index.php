@@ -3,7 +3,7 @@
 <section class="hero-section">
   <div class="hero-content fade-in-up">
     <h1 class="hero-title">Elegance šitá na míru</h1>
-    <p class="hero-subtitle">Třicet let zkušeností v dámském krejčovství. Každý kousek je jedinečným dílem, vytvořeným přesně podle vašich představ.</p>
+    <p class="hero-subtitle">Čtyřicet let zkušeností v dámském krejčovství. Každý kousek je jedinečným dílem, vytvořeným přesně podle vašich představ.</p>
     <a href="kontakt.php" class="cta-button">Domluvte si konzultaci</a>
   </div>
 </section>

@@ -80,39 +80,31 @@ body {
   list-style: none;
   gap: 2rem;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .main-nav a {
   text-decoration: none;
   color: var(--text-dark);
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   border-radius: var(--border-radius-sm);
-  transition: all 0.3s ease;
+  background: none;
+  transition: background 0.2s, color 0.2s;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .main-nav a::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
+  display: none !important;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
   background: var(--accent-gradient);
-  transition: left 0.3s ease;
-  z-index: -1;
-  border-radius: var(--border-radius-sm);
-}
-
-.main-nav a:hover::before {
-  left: 0;
-}
-
-.main-nav a:hover {
-  color: var(--text-light);
-  transform: translateY(-2px);
+  color: var(--text-light) !important;
+  box-shadow: none;
+  transform: none;
 }
 
 /* Hero Section */
@@ -453,22 +445,25 @@ main {
 
 /* Footer */
 .modern-footer {
-  background: var(--dark-gradient);
-  color: var(--text-light);
+  background: transparent;
+  color: rgba(107, 114, 128, 0.4);
   text-align: center;
-  padding: 3rem 0;
+  padding: 2rem 0;
   margin-top: 4rem;
+  font-size: 0.85rem;
+  opacity: 0.6;
 }
 
 .modern-footer a {
-  color: var(--text-light);
+  color: rgba(107, 114, 128, 0.5);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   transition: all 0.3s ease;
 }
 
 .modern-footer a:hover {
-  opacity: 0.8;
+  color: rgba(107, 114, 128, 0.7);
+  opacity: 1;
 }
 
 /* Utility Classes */
@@ -565,8 +560,13 @@ main {
   }
 }
 
-/* Smooth transitions for all interactive elements */
-* {
+/* Smooth transitions for interactive elements */
+a:not(.main-nav a):not(.logo),
+button,
+.feature-card,
+.gallery-item,
+.contact-card,
+.pricing-table tr {
   transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 

@@ -1,3 +1,6 @@
+<?php
+$current = basename($_SERVER['PHP_SELF']);
+?>
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -13,10 +16,10 @@
     <a href="index.php" class="logo">Věra Čončková</a>
     <nav class="main-nav">
       <ul>
-        <li><a href="index.php">Úvod</a></li>
-        <li><a href="cenik.php">Ceník</a></li>
-        <li><a href="galerie.php">Galerie</a></li>
-        <li><a href="kontakt.php">Kontakt</a></li>
+        <li><a href="index.php"<?php if ($current == 'index.php') echo ' class="active"'; ?>>Úvod</a></li>
+        <li><a href="cenik.php"<?php if ($current == 'cenik.php') echo ' class="active"'; ?>>Ceník</a></li>
+        <li><a href="galerie.php"<?php if ($current == 'galerie.php') echo ' class="active"'; ?>>Galerie</a></li>
+        <li><a href="kontakt.php"<?php if ($current == 'kontakt.php') echo ' class="active"'; ?>>Kontakt</a></li>
       </ul>
     </nav>
   </div>
