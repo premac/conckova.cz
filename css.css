@@ -1,31 +1,32 @@
 html,body {
-	color: #ffffff;
-  background-color:#5a5a5a;	
-	margin: 0;
-	padding:0;
-	font: 1em "Trebuchet MS", Arial, Verdana, sans-serif;
-  background-image: url("img/gradient.jpg");
-  background-position: left top;
-  background-repeat: repeat-x;
-} 
+  color: #ffffff;
+  margin: 0;
+  padding:0;
+  font: 1em "Trebuchet MS", Arial, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #5a5a5a 0%, #262626 100%);
+  background-attachment: fixed;
+}
 
 p {
   margin-top:17px;  
 }
 
 table.hlavni {
-	background-color: black;
-	padding: 0;
-	width: 700px;
+  background-color: rgba(0,0,0,0.7);
+  padding: 0;
+  width: 700px;
   height: 100%;
-	border: 0px;  
+  border: 0px;
   font-size: 0.9em;
   line-height:1.4em;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 h1.nadpis {
   font-size: 1.3em;
   letter-spacing: 0.2em;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
 .menu {
@@ -40,6 +41,8 @@ h1.nadpis {
 img.galerie {
   margin-top: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255,0.2));
 }
 
 A {
@@ -73,7 +76,9 @@ H1 {
 td.obsah {
   padding: 30px;
   padding-top: 40px;
-	vertical-align: top;  
+  vertical-align: top;
+  background-color: rgba(255,255,255,0.05);
+  backdrop-filter: blur(3px);
 }
 
 .ruzova {color: #ed497b}
@@ -83,11 +88,11 @@ td.obsah {
 .zelena {color: #93bd33}
 .modra {color: #3393bd}
 
-.p_ruzova {background-color: #ed497b}
-/*.p_ruzova {background-color: #fd494b}*/
-.p_zluta {background-color: #e2cf00}
-.p_zelena {background-color: #93bd33}
-.p_modra {background-color: #3393bd}
+.p_ruzova {background: linear-gradient(rgba(237,73,123,0.9), rgba(237,73,123,0.7))}
+/*.p_ruzova {background: linear-gradient(rgba(237,73,123,0.9), rgba(237,73,123,0.7))}*/
+.p_zluta {background: linear-gradient(rgba(226,207,0,0.9), rgba(226,207,0,0.7))}
+.p_zelena {background: linear-gradient(rgba(147,189,51,0.9), rgba(147,189,51,0.7))}
+.p_modra {background: linear-gradient(rgba(51,147,189,0.9), rgba(51,147,189,0.7))}
 
 
 div.content {
