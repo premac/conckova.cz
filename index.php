@@ -1,4 +1,4 @@
-<?
+<?php
 include "header.php";
 ?>
 
@@ -17,9 +17,13 @@ include "header.php";
         </p>
 
         <p>
-        Nejdůležitější je pro mne <span class="modra"><b>individuální přistup</b></span> k zákazníkovi a <span class="zluta"><b>jeho spokojenost</b></span>. Odměnou jsou mi vracející se zákazníci. Budu ráda, když mezi ně budete patři i Vy. Proto se neostýchejte a kontaktujte mne.        
+        Nejdůležitější je pro mne <span class="modra"><b>individuální přistup</b></span> k zákazníkovi a <span class="zluta"><b>jeho spokojenost</b></span>. Odměnou jsou mi vracející se zákazníci. Budu ráda, když mezi ně budete patři i Vy. Proto se neostýchejte a kontaktujte mne.
         </p>
 
-<?
+        <p style="text-align:center;">
+          <a href="kontakt.php" class="cta-button">Kontaktujte mě</a>
+        </p>
+
+<?php
 include "footer.php";
 ?>

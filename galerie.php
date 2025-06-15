@@ -1,4 +1,4 @@
-<?
+<?php
 include "header.php";
 ?>
 
@@ -106,6 +106,6 @@ include "header.php";
           <img alt="" src="galerie/kabat.jpg" class="galerie">
         </p>
         
-<?
+<?php
 include "footer.php";
 ?>

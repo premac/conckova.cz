@@ -1,4 +1,4 @@
-<?
+<?php
 include "header.php";
 ?>
 
@@ -42,6 +42,6 @@ include "header.php";
         </p>
 
         
-<?
+<?php
 include "footer.php";
 ?>

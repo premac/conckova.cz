@@ -1,4 +1,4 @@
-<?
+<?php
 include "header.php";
 ?>
 
@@ -35,6 +35,6 @@ include "header.php";
           **&nbsp;&nbsp;<span class="zelena">Sako + sukně + kalhoty</span>
         </p>
         
-<?
+<?php
 include "footer.php";
 ?>
