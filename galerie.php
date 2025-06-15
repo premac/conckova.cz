@@ -1,11 +1,11 @@
 <?
-include "before.php";
+include "header.php";
 ?>
 
         <h1 class="zluta">Galerie</h1>
         
         <p>
-        Nìkolik obrázkù mých prací:
+        NÄ›kolik obrÃ¡zkÅ¯ mÃ½ch pracÃ­:
         </p>
 
         <p align=center>
@@ -24,32 +24,32 @@ include "before.php";
         </p>
 
         <p align=center>
-          <span class="zelena"><b>Šaty</b></span><br>
+          <span class="zelena"><b>Å aty</b></span><br>
           <img alt="" src="galerie/saty2.jpg" class="galerie">
         </p>
 
         <p align=center>
-          <span class="zluta"><b>Kabát</b></span><br>
+          <span class="zluta"><b>KabÃ¡t</b></span><br>
           <img alt="" src="galerie/kabat2.jpg" class="galerie">
         </p>
 
         <p align=center>
-          <span class="modra"><b>Sako s nabíranou fazonou</b></span><br>
+          <span class="modra"><b>Sako s nabÃ­ranou fazonou</b></span><br>
           <img alt="" src="galerie/sako3.jpg" class="galerie">
         </p>
 
         <p align=center>
-          <span class="ruzova"><b>Krajkové sako a pouzdrové šaty</b></span><br>
+          <span class="ruzova"><b>KrajkovÃ© sako a pouzdrovÃ© Å¡aty</b></span><br>
           <img alt="" src="galerie/sako4.jpg" class="galerie">
         </p>
 
         <p align=center>
-          <span class="ruzova"><b>Šaty</b></span><br>
+          <span class="ruzova"><b>Å aty</b></span><br>
           <img alt="" src="galerie/saty.jpg" class="galerie">
         </p>
         
         <p align=center>
-          <span class="zluta"><b>Mažoretky z Horní Lhoty</b></span><br>
+          <span class="zluta"><b>MaÅ¾oretky z HornÃ­ Lhoty</b></span><br>
           <img alt="" src="galerie/mazoretky1.jpg" class="galerie"><br>
 		  <img alt="" src="galerie/mazoretky2.jpg" class="galerie"><br>
 		  <img alt="" src="galerie/mazoretky3.jpg" class="galerie">
@@ -66,7 +66,7 @@ include "before.php";
         </p>
 
         <p align=center>
-          <span class="zluta"><b>Kostýmek</b></span><br>
+          <span class="zluta"><b>KostÃ½mek</b></span><br>
           <img alt="" src="galerie/obr7.jpg" class="galerie">
         </p>
         
@@ -102,10 +102,10 @@ include "before.php";
         </p>
 
         <p align=center>
-          <span class="zluta"><b>Kabát</b></span><br>
+          <span class="zluta"><b>KabÃ¡t</b></span><br>
           <img alt="" src="galerie/kabat.jpg" class="galerie">
         </p>
         
 <?
-include "after.php";
+include "footer.php";
 ?>
