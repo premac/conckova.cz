@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-        <h1 class="zluta">Galerie</h1>
+        <h1>Galerie</h1>
 
         <p>
         Několik obrázků mých prací:

@@ -1,10 +1,18 @@
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #fafafa;
-  color: #333;
+  color: #444;
+  font-size: 1.1rem;
   line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: inherit;
+  margin: 1rem 0;
 }
 
 .modern-header {
@@ -103,7 +111,9 @@ main {
   text-decoration: none;
 }
 
-.ruzova { color: #ed497b; }
-.zluta { color: #e2cf00; }
-.zelena { color: #93bd33; }
-.modra { color: #3393bd; }
+.ruzova,
+.zluta,
+.zelena,
+.modra {
+  color: inherit;
+}
