@@ -1,15 +1,15 @@
 <?
-include "before.php";
+include "header.php";
 ?>
 
         <h1 class="modra">Kontakt</h1>
         
         <p>
-        <span class="zelena"><br><b>Provozovna Hrabynì</b></span>         
+        <span class="zelena"><br><b>Provozovna HrabynÄ›</b></span>         
         </p>
 
         <p>
-        Adresa: Hrabynì 167&nbsp;&nbsp;&nbsp;
+        Adresa: HrabynÄ› 167&nbsp;&nbsp;&nbsp;
         (
         <a target=_blank href="https://www.mapy.cz/?mapType=base&zoom=13&centerX=141413293&centerY=135343528&portWidth=1058&portHeight=748&forceMapParams=1&query=hrabyne%20167&page=1&searchPort=118215589_122734465_152884133_152323969"><span>Mapa obce</span></a>, 
         <a target=_blank href="https://www.mapy.cz/?mapType=base&zoom=11&centerX=141557504&centerY=135263343&portWidth=1058&portHeight=748&forceMapParams=1&query=route(fast,toll):%C4%8D%C3%A1st%20obce%20Poruba,%20Ostrava%3EHrabyn%C4%9B%20%C4%8D.p.%20167,%20obec%20Hrabyn%C4%9B,%20okres%20Opava&page=1&searchPort=141420928_135183840_141694080_135342847"><span>Trasa z Ostravy</span></a>,
@@ -43,5 +43,5 @@ include "before.php";
 
         
 <?
-include "after.php";
+include "footer.php";
 ?>

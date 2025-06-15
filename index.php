@@ -1,25 +1,25 @@
 <?
-include "before.php";
+include "header.php";
 ?>
 
-        <h1 class="zelena">Vítám Vás</h1>
+        <h1 class="zelena">VÃ­tÃ¡m VÃ¡s</h1>
         
         <p>
-        Váenı návštìvníku, vítám Vás na svıch stránkách.         
+        VÃ¡Å¾enÃ½ nÃ¡vÅ¡tÄ›vnÃ­ku, vÃ­tÃ¡m VÃ¡s na svÃ½ch strÃ¡nkÃ¡ch.         
         </p>
         
         <p>
-        Jako dámská kreèová pracuji ji tøicet let, od roku 1992 provozuji soukromé dámské zakázkové krejèovství.        
+        Jako dÃ¡mskÃ¡ krejÄovÃ¡ pracuji jiÅ¾ tÅ™icet let, od roku 1992 provozuji soukromÃ© dÃ¡mskÃ© zakÃ¡zkovÃ© krejÄovstvÃ­.        
         </p>
 
         <p>
-        Šiju z <span class="ruzova"><b>vlastních</b></span> a <span class="ruzova"><b>zákazníkem dodanıch materiálù</b></span>. Pøijímám i maloseriové zakázky.        
+        Å iju z <span class="ruzova"><b>vlastnÃ­ch</b></span> a <span class="ruzova"><b>zÃ¡kaznÃ­kem dodanÃ½ch materiÃ¡lÅ¯</b></span>. PÅ™ijÃ­mÃ¡m i maloseriovÃ© zakÃ¡zky.        
         </p>
 
         <p>
-        Nejdùleitìjší je pro mne <span class="modra"><b>individuální pøistup</b></span> k zákazníkovi a <span class="zluta"><b>jeho spokojenost</b></span>. Odmìnou jsou mi vracející se zákazníci. Budu ráda, kdy mezi nì budete patøi i Vy. Proto se neostıchejte a kontaktujte mne.        
+        NejdÅ¯leÅ¾itÄ›jÅ¡Ã­ je pro mne <span class="modra"><b>individuÃ¡lnÃ­ pÅ™istup</b></span> k zÃ¡kaznÃ­kovi a <span class="zluta"><b>jeho spokojenost</b></span>. OdmÄ›nou jsou mi vracejÃ­cÃ­ se zÃ¡kaznÃ­ci. Budu rÃ¡da, kdyÅ¾ mezi nÄ› budete patÅ™i i Vy. Proto se neostÃ½chejte a kontaktujte mne.        
         </p>
 
 <?
-include "after.php";
+include "footer.php";
 ?>

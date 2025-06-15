@@ -1,40 +1,40 @@
 <?
-include "before.php";
+include "header.php";
 ?>
 
-        <h1 class="ruzova">Ceník</h1>
+        <h1 class="ruzova">CenÃ­k</h1>
         
         <p>
-        Uvedené ceny <span class="zluta"><b>nezahrnují materiál</b></span> a jsou pouze orientaèní. Podle sloitosti provedení mohou bıt a o 20 procent vyšší.         
+        UvedenÃ© ceny <span class="zluta"><b>nezahrnujÃ­ materiÃ¡l</b></span> a jsou pouze orientaÄnÃ­. Podle sloÅ¾itosti provedenÃ­ mohou bÃ½t aÅ¾ o 20 procent vyÅ¡Å¡Ã­.         
         </p>
         
         <table border=0 cellspacing=3 cellpadding=5 width=60% align=center class=cenik>
-          <tr><td>Sako nepodšité</td><td align=right>1000,-</td></tr>
-          <tr><td>Sako podšité</td><td align=right>1 500,-</td></tr>
-          <tr><td>Bunda nepodšitá</td><td align=right>800,-</td></tr>
-          <tr><td>Bunda podšitá</td><td align=right>1 200,-</td></tr>
-          <tr><td>Suknì nepodšitá</td><td align=right>400,-</td></tr>
-          <tr><td>Suknì podšitá</td><td align=right>520,-</td></tr>
+          <tr><td>Sako nepodÅ¡itÃ©</td><td align=right>1000,-</td></tr>
+          <tr><td>Sako podÅ¡itÃ©</td><td align=right>1 500,-</td></tr>
+          <tr><td>Bunda nepodÅ¡itÃ¡</td><td align=right>800,-</td></tr>
+          <tr><td>Bunda podÅ¡itÃ¡</td><td align=right>1 200,-</td></tr>
+          <tr><td>SuknÄ› nepodÅ¡itÃ¡</td><td align=right>400,-</td></tr>
+          <tr><td>SuknÄ› podÅ¡itÃ¡</td><td align=right>520,-</td></tr>
           <tr><td>Kalhoty bez kapes</td><td align=right>400,-</td></tr>
           <tr><td>Kalhoty s kapsama</td><td align=right>450,-</td></tr>
           <tr><td>Halenka</td><td align=right>400,-</td></tr>
-          <tr><td>Kostımek dvojkombinace *</td><td align=right>1 500,-</td></tr>
-          <tr><td>Kostımek trojkombinace **</td><td align=right>2 000,-</td></tr>
-          <tr><td>Kostımek dvojkombinace podšitı *</td><td align=right>2 000,-</td></tr>
-          <tr><td>Kostımek trojkombinace podšitı **</td><td align=right>2 500,-</td></tr>
-          <tr><td>Šaty</td><td align=right>800,-</td></tr>
-          <tr><td>Pláš podšitı</td><td align=right>2 000,-</td></tr>
-          <tr><td>Paleto s kapucí podšité</td><td align=right>1 800,-</td></tr>
-          <tr><td>Opravy, úpravy</td><td align=right>cena dohodou</td></tr>
+          <tr><td>KostÃ½mek dvojkombinace *</td><td align=right>1 500,-</td></tr>
+          <tr><td>KostÃ½mek trojkombinace **</td><td align=right>2 000,-</td></tr>
+          <tr><td>KostÃ½mek dvojkombinace podÅ¡itÃ½ *</td><td align=right>2 000,-</td></tr>
+          <tr><td>KostÃ½mek trojkombinace podÅ¡itÃ½ **</td><td align=right>2 500,-</td></tr>
+          <tr><td>Å aty</td><td align=right>800,-</td></tr>
+          <tr><td>PlÃ¡Å¡Å¥ podÅ¡itÃ½</td><td align=right>2 000,-</td></tr>
+          <tr><td>Paleto s kapucÃ­ podÅ¡itÃ©</td><td align=right>1 800,-</td></tr>
+          <tr><td>Opravy, Ãºpravy</td><td align=right>cena dohodou</td></tr>
           
         </table>
         
         <p>
-          *&nbsp;&nbsp;<span class="zluta">Sako + suknì nebo kalhoty</span>
+          *&nbsp;&nbsp;<span class="zluta">Sako + suknÄ› nebo kalhoty</span>
         <br>
-          **&nbsp;&nbsp;<span class="zelena">Sako + suknì + kalhoty</span>
+          **&nbsp;&nbsp;<span class="zelena">Sako + suknÄ› + kalhoty</span>
         </p>
         
 <?
-include "after.php";
+include "footer.php";
 ?>
