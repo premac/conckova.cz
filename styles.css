@@ -1,59 +1,87 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #fafafa;
   color: #333;
+  line-height: 1.6;
 }
 
-header {
-  background: #000;
-  color: #fff;
-  text-align: center;
+.modern-header {
+  background: #fff;
+  color: #111;
+}
+
+.hero-wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
 .hero {
   width: 100%;
-  max-height: 200px;
+  height: 45vh;
   object-fit: cover;
 }
 
-header h1 {
-  margin: 0;
-  padding: 1rem 0;
-  font-size: 1.5rem;
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
 }
 
-nav ul {
+.site-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-nav {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.main-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: #333;
   display: flex;
   justify-content: center;
 }
 
-nav li {
+.main-nav li {
   margin: 0;
 }
 
-nav a {
+
+.main-nav a {
   display: block;
-  padding: 0.75rem 1rem;
-  color: #fff;
+  padding: 1rem 1.5rem;
+  color: #111;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
 }
 
-nav a:hover,
-nav a:focus {
-  background: #444;
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #0070f3;
 }
 
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .galerie {
@@ -62,12 +90,17 @@ main {
   margin: 10px 0 20px;
 }
 
-footer {
+.modern-footer {
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem;
   background: #111;
-  color: #ccc;
+  color: #eee;
   font-size: 0.9em;
+}
+
+.modern-footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .ruzova { color: #ed497b; }

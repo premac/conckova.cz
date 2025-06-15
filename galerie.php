@@ -1,9 +1,7 @@
-<?
-include "header.php";
-?>
+<?php include "header.php"; ?>
 
         <h1 class="zluta">Galerie</h1>
-        
+
         <p>
         Několik obrázků mých prací:
         </p>
@@ -47,19 +45,19 @@ include "header.php";
           <span class="ruzova"><b>Šaty</b></span><br>
           <img alt="" src="galerie/saty.jpg" class="galerie">
         </p>
-        
+
         <p align=center>
           <span class="zluta"><b>Mažoretky z Horní Lhoty</b></span><br>
           <img alt="" src="galerie/mazoretky1.jpg" class="galerie"><br>
 		  <img alt="" src="galerie/mazoretky2.jpg" class="galerie"><br>
 		  <img alt="" src="galerie/mazoretky3.jpg" class="galerie">
-        </p>		
-		
+        </p>
+
         <p align=center>
           <span class="zelena"><b>Sako</b></span><br>
           <img alt="" src="galerie/obr1.jpg" class="galerie">
         </p>
-        
+
         <p align=center>
           <span class="ruzova"><b>Halenka</b></span><br>
           <img alt="" src="galerie/obr3.jpg" class="galerie">
@@ -69,7 +67,7 @@ include "header.php";
           <span class="zluta"><b>Kostýmek</b></span><br>
           <img alt="" src="galerie/obr7.jpg" class="galerie">
         </p>
-        
+
         <p align=center>
           <span class="ruzova"><b>Halenka</b></span><br>
           <img alt="" src="galerie/obr8.jpg" class="galerie">
@@ -88,7 +86,7 @@ include "header.php";
         <p align=center>
           <span class="zluta"><b>Halenka</b></span><br>
           <img alt="" src="galerie/obr11.jpg" class="galerie">
-        </p>                
+        </p>
 
 
         <p align=center>
@@ -105,7 +103,5 @@ include "header.php";
           <span class="zluta"><b>Kabát</b></span><br>
           <img alt="" src="galerie/kabat.jpg" class="galerie">
         </p>
-        
-<?
-include "footer.php";
-?>
+
+<?php include "footer.php"; ?>
