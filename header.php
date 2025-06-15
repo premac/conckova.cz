@@ -9,20 +9,17 @@
 </head>
 <body>
 <header class="modern-header">
-  <div class="hero-wrapper">
-    <img src="img/title_2.jpg" alt="" class="hero">
-    <div class="hero-overlay">
-      <h1 class="site-title">Dámské krejčovství <span>Věra Čončková</span></h1>
-    </div>
+  <div class="nav-container">
+    <a href="index.php" class="logo">Věra Čončková</a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.php">Úvod</a></li>
+        <li><a href="cenik.php">Ceník</a></li>
+        <li><a href="galerie.php">Galerie</a></li>
+        <li><a href="kontakt.php">Kontakt</a></li>
+      </ul>
+    </nav>
   </div>
-  <nav class="main-nav">
-    <ul>
-      <li><a href="index.php">Úvod</a></li>
-      <li><a href="cenik.php">Ceník</a></li>
-      <li><a href="galerie.php">Galerie</a></li>
-      <li><a href="kontakt.php">Kontakt</a></li>
-    </ul>
-  </nav>
 </header>
 <main>
 

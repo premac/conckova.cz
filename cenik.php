@@ -1,36 +1,53 @@
 <?php include "header.php"; ?>
 
-        <h1 class="ruzova">Ceník</h1>
+<div class="container">
+  <section class="section">
+    <h1 class="section-title">Ceník služeb</h1>
+    
+    <div class="pricing-note">
+      ⚠️ Uvedené ceny nezahrnují materiál a jsou pouze orientační. Podle složitosti provedení mohou být až o 20% vyšší.
+    </div>
 
-        <p>
-        Uvedené ceny <span class="zluta"><b>nezahrnují materiál</b></span> a jsou pouze orientační. Podle složitosti provedení mohou být až o 20 procent vyšší.
-        </p>
+    <div class="pricing-container">
+      <div class="pricing-header">
+        <h2>Naše služby</h2>
+        <p>Profesionální krejčovství s individuálním přístupem</p>
+      </div>
 
-        <table border=0 cellspacing=3 cellpadding=5 width=60% align=center class=cenik>
-          <tr><td>Sako nepodšité</td><td align=right>1000,-</td></tr>
-          <tr><td>Sako podšité</td><td align=right>1 500,-</td></tr>
-          <tr><td>Bunda nepodšitá</td><td align=right>800,-</td></tr>
-          <tr><td>Bunda podšitá</td><td align=right>1 200,-</td></tr>
-          <tr><td>Sukně nepodšitá</td><td align=right>400,-</td></tr>
-          <tr><td>Sukně podšitá</td><td align=right>520,-</td></tr>
-          <tr><td>Kalhoty bez kapes</td><td align=right>400,-</td></tr>
-          <tr><td>Kalhoty s kapsama</td><td align=right>450,-</td></tr>
-          <tr><td>Halenka</td><td align=right>400,-</td></tr>
-          <tr><td>Kostýmek dvojkombinace *</td><td align=right>1 500,-</td></tr>
-          <tr><td>Kostýmek trojkombinace **</td><td align=right>2 000,-</td></tr>
-          <tr><td>Kostýmek dvojkombinace podšitý *</td><td align=right>2 000,-</td></tr>
-          <tr><td>Kostýmek trojkombinace podšitý **</td><td align=right>2 500,-</td></tr>
-          <tr><td>Šaty</td><td align=right>800,-</td></tr>
-          <tr><td>Plášť podšitý</td><td align=right>2 000,-</td></tr>
-          <tr><td>Paleto s kapucí podšité</td><td align=right>1 800,-</td></tr>
-          <tr><td>Opravy, úpravy</td><td align=right>cena dohodou</td></tr>
+      <table class="pricing-table">
+        <tr><td>Sako nepodšité</td><td>1 000,- Kč</td></tr>
+        <tr><td>Sako podšité</td><td>1 500,- Kč</td></tr>
+        <tr><td>Bunda nepodšitá</td><td>800,- Kč</td></tr>
+        <tr><td>Bunda podšitá</td><td>1 200,- Kč</td></tr>
+        <tr><td>Sukně nepodšitá</td><td>400,- Kč</td></tr>
+        <tr><td>Sukně podšitá</td><td>520,- Kč</td></tr>
+        <tr><td>Kalhoty bez kapes</td><td>400,- Kč</td></tr>
+        <tr><td>Kalhoty s kapsama</td><td>450,- Kč</td></tr>
+        <tr><td>Halenka</td><td>400,- Kč</td></tr>
+        <tr><td>Kostýmek dvojkombinace *</td><td>1 500,- Kč</td></tr>
+        <tr><td>Kostýmek trojkombinace **</td><td>2 000,- Kč</td></tr>
+        <tr><td>Kostýmek dvojkombinace podšitý *</td><td>2 000,- Kč</td></tr>
+        <tr><td>Kostýmek trojkombinace podšitý **</td><td>2 500,- Kč</td></tr>
+        <tr><td>Šaty</td><td>800,- Kč</td></tr>
+        <tr><td>Plášť podšitý</td><td>2 000,- Kč</td></tr>
+        <tr><td>Paleto s kapucí podšité</td><td>1 800,- Kč</td></tr>
+        <tr><td>Opravy, úpravy</td><td>cena dohodou</td></tr>
+      </table>
 
-        </table>
+      <div class="pricing-legend">
+        <div class="legend-item dvojkombinace">
+          <strong>* Dvojkombinace:</strong> Sako + sukně nebo kalhoty
+        </div>
+        <div class="legend-item trojkombinace">
+          <strong>** Trojkombinace:</strong> Sako + sukně + kalhoty
+        </div>
+      </div>
+    </div>
 
-        <p>
-          *&nbsp;&nbsp;<span class="zluta">Sako + sukně nebo kalhoty</span>
-        <br>
-          **&nbsp;&nbsp;<span class="zelena">Sako + sukně + kalhoty</span>
-        </p>
+    <div class="text-center mt-4">
+      <a href="kontakt.php" class="cta-button">Získejte cenovou nabídku</a>
+    </div>
+  </section>
+</div>
 
 <?php include "footer.php"; ?>
