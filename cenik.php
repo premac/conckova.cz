@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-        <h1 class="ruzova">Ceník</h1>
+        <h1>Ceník</h1>
 
         <p>
         Uvedené ceny <span class="zluta"><b>nezahrnují materiál</b></span> a jsou pouze orientační. Podle složitosti provedení mohou být až o 20 procent vyšší.

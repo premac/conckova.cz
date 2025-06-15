@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-        <h1 class="zelena">Vítám Vás</h1>
+        <h1>Vítám Vás</h1>
 
         <p>
         Vážený návštěvníku, vítám Vás na svých stránkách.

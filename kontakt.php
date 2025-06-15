@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-        <h1 class="modra">Kontakt</h1>
+        <h1>Kontakt</h1>
 
         <p>
         <span class="zelena"><br><b>Provozovna Hrabyně</b></span>
