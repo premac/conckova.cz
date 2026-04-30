@@ -3,6 +3,7 @@ import { anthropic } from '@ai-sdk/anthropic'
 import { Resend } from 'resend'
 import { z } from 'zod'
 import { SYSTEM_PROMPT } from '@/lib/systemPrompt'
+import { getInstructions } from '@/lib/db'
 
 export const runtime = 'nodejs'
 export const maxDuration = 30
@@ -10,10 +11,11 @@ export const maxDuration = 30
 export async function POST(req: Request) {
   const { messages } = await req.json()
   const resend = new Resend(process.env.RESEND_API_KEY)
+  const systemPrompt = (await getInstructions()) ?? SYSTEM_PROMPT
 
   const result = streamText({
     model: anthropic('claude-sonnet-4-5'),
-    system: SYSTEM_PROMPT,
+    system: systemPrompt,
     messages,
     tools: {
       sendInquiryEmail: tool({
