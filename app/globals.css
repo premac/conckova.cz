@@ -1,0 +1,305 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.modern-header {
+  background: #fff;
+  color: #111;
+}
+
+.hero-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.site-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-nav {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #0070f3;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.galerie {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0 20px;
+}
+
+.modern-footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  color: #eee;
+  font-size: 0.9em;
+}
+
+.modern-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ruzova { color: #ed497b; }
+.zluta { color: #e2cf00; }
+.zelena { color: #93bd33; }
+.modra { color: #3393bd; }
+
+/* Chat page */
+.chat-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-height: 300px;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.chat-bubble {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  max-width: 80%;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.chat-bubble.user {
+  background: #ed497b;
+  color: #fff;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+.chat-bubble.assistant {
+  background: #f0f0f0;
+  color: #333;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-input-row input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.chat-input-row input:focus {
+  border-color: #ed497b;
+}
+
+.chat-input-row button {
+  padding: 0.75rem 1.5rem;
+  background: #ed497b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.chat-input-row button:hover:not(:disabled) {
+  background: #d63d6a;
+}
+
+.chat-input-row button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.chat-status {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.5rem;
+  min-height: 1.2em;
+}
+
+.chat-intro {
+  background: #fff;
+  border-left: 4px solid #ed497b;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+}
+
+/* Admin page */
+.admin-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.admin-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.admin-input,
+.admin-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.admin-input:focus,
+.admin-textarea:focus {
+  border-color: #ed497b;
+}
+
+.admin-textarea {
+  resize: vertical;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.admin-btn-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.admin-btn {
+  padding: 0.75rem 1.75rem;
+  background: #ed497b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.admin-btn:hover:not(:disabled) {
+  background: #d63d6a;
+}
+
+.admin-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.admin-btn-outline {
+  background: transparent;
+  color: #ed497b;
+  border: 2px solid #ed497b;
+}
+
+.admin-btn-outline:hover:not(:disabled) {
+  background: #fdf0f4;
+}
+
+.admin-error {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.admin-success {
+  color: #27ae60;
+  font-size: 0.9rem;
+  margin: 0;
+}
